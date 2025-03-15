@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.csicit.ace.gradle","c":"AceGradlePlugin","l":"AceGradlePlugin()","u":"%3Cinit%3E()"},{"p":"com.csicit.ace.gradle","c":"AceGradlePlugin","l":"apply(Project)","u":"apply(org.gradle.api.Project)"}];updateSearchResults();

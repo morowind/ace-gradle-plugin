@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"com.csicit.ace.gradle","l":"AceGradlePlugin"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"}];updateSearchResults();

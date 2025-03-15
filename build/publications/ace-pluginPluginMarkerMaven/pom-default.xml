@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.csicit.ace.ace-gradle-plugin</groupId>
+  <artifactId>com.csicit.ace.ace-gradle-plugin.gradle.plugin</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <name>JARI-ACE Gradle Plugin</name>
+  <description>JARI-ACE Platform spring boot gradle plugin</description>
+  <dependencyManagement>
+    <dependencies/>
+  </dependencyManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.csicit.ace</groupId>
+      <artifactId>ace-gradle-plugin</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

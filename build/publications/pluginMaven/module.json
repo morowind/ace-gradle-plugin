@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.csicit.ace",
+    "module": "ace-gradle-plugin",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ace-gradle-plugin-1.0.0.jar",
+          "url": "ace-gradle-plugin-1.0.0.jar",
+          "size": 8846,
+          "sha512": "e6e1759995cb8c6903c28ad8965cff7454148bc695dc1abcefb3010524937806fdcacaa436803e8c757bd01b3902075e3f539640346963f6cbaed3ea38e091f8",
+          "sha256": "a72018342708628948564af12cdccb6e10536aa82178faa15cc2ffc3ce3ac888",
+          "sha1": "5c4ea09573bd6e02eeaa816450898c03f78b9df8",
+          "md5": "a97c5959e6c2170d23b9df67e2e06c34"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.spring.gradle",
+          "module": "dependency-management-plugin",
+          "version": {
+            "requires": "1.1.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ace-gradle-plugin-1.0.0.jar",
+          "url": "ace-gradle-plugin-1.0.0.jar",
+          "size": 8846,
+          "sha512": "e6e1759995cb8c6903c28ad8965cff7454148bc695dc1abcefb3010524937806fdcacaa436803e8c757bd01b3902075e3f539640346963f6cbaed3ea38e091f8",
+          "sha256": "a72018342708628948564af12cdccb6e10536aa82178faa15cc2ffc3ce3ac888",
+          "sha1": "5c4ea09573bd6e02eeaa816450898c03f78b9df8",
+          "md5": "a97c5959e6c2170d23b9df67e2e06c34"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ace-gradle-plugin-1.0.0-javadoc.jar",
+          "url": "ace-gradle-plugin-1.0.0-javadoc.jar",
+          "size": 72047,
+          "sha512": "32a5827787da97d97eba8bd22c0da1e120b60a04960a85123ce5d111d14e0d47deb93fff6053772b9e90bf7ecdf677b517d5e43de8cb569fbdadf396c65fcf34",
+          "sha256": "d3c692ea00baa0ae71ff11ac25e91e85518cb00bdb3a3406385bc3db9c610d82",
+          "sha1": "1bd0b17210d089d6cfb992980657fb7871f42aba",
+          "md5": "36130d3a1d5cf498cd5e76eecc634903"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ace-gradle-plugin-1.0.0-sources.jar",
+          "url": "ace-gradle-plugin-1.0.0-sources.jar",
+          "size": 4058,
+          "sha512": "0030110dd8ca6673787be4367fea66642bd560d641646e20c84a8539c8613794e98519aadcb9bec60243d4086886ce41f9807213b5bdc4351c1a825493088f54",
+          "sha256": "aebe7984d2249569b76687de72af94eeed562dab057ab34d60d3f90395f35838",
+          "sha1": "86ef0382247c372311e9ff78066cc11e61c61281",
+          "md5": "03ce51e46c928bc1d0e2ac6d16208125"
+        }
+      ]
+    }
+  ]
+}
