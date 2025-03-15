@@ -4,6 +4,7 @@ plugins {
     id("io.spring.dependency-management") version "1.1.7"
     id("maven-publish")
     id("com.gradle.plugin-publish") version "1.3.1"
+    signing
 }
 
 group = "com.csicit.ace"
@@ -24,8 +25,9 @@ gradlePlugin {
         register("ace-plugin") {
             id = "com.csicit.ace.ace-gradle-plugin"
             group = "com.csicit.ace"
-            displayName = "JARI-ACE Gradle Plugin"
-            description = "JARI-ACE Platform spring boot gradle plugin"
+            displayName = "J-ACE Gradle Plugin"
+            description = "J-ACE Platform spring boot gradle plugin"
+            tags = listOf("j-ace")
             implementationClass = "com.csicit.ace.gradle.AceGradlePlugin"
         }
     }
@@ -49,22 +51,10 @@ tasks.test {
 
 publishing {
     repositories {
-        maven {
-            val isSnapshot = version.toString().endsWith("-SNAPSHOT")
-            isAllowInsecureProtocol = true
-            name = if (isSnapshot) "csicit-snapshot" else "csicit-release"
-            url = uri(
-                if (isSnapshot) {
-                    "http://nexus.jariit.local/repository/maven-snapshots"
-                } else {
-                    "http://nexus.jariit.local/repository/maven-releases"
-                }
-            )
-            credentials {
-                username = "admin"
-                password = "C#rocks8866"
-            }
-        }
         mavenCentral()
     }
+}
+
+signing {
+    sign(configurations.runtimeElements.get())
 }
