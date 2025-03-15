@@ -4,7 +4,7 @@ Add below code in your build.gradle(.kts)
 
 ```kotlin
 plugins {
-    id("io.github.morowind.ace-gradle-plugin") version 1.0.0
+    id("io.github.morowind.ace-gradle-plugin") version "1.0.0"
 }
 ```
 
