@@ -1,4 +1,4 @@
-# Gradle plugin for building applications on J-ACE Platform
+# Gradle plugin for building applications based on J-ACE Platform
 
 Add below code in your build.gradle(.kts)
 

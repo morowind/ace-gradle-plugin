@@ -28,7 +28,7 @@ gradlePlugin {
             displayName = "J-ACE Gradle Plugin"
             description = "J-ACE Platform spring boot gradle plugin"
             tags = listOf("j-ace")
-            implementationClass = "com.csicit.ace.gradle.AceGradlePlugin"
+            implementationClass = "io.github.morowind.gradle.AceGradlePlugin"
         }
     }
 }
