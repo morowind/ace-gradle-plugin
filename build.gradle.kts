@@ -7,7 +7,7 @@ plugins {
     signing
 }
 
-group = "com.csicit.ace"
+group = "io.github.morowind"
 version = "1.0.0"
 
 repositories {
@@ -23,8 +23,8 @@ gradlePlugin {
     vcsUrl = "https://github.com/morowind/ace-gradle-plugin"
     plugins {
         register("ace-plugin") {
-            id = "com.csicit.ace.ace-gradle-plugin"
-            group = "com.csicit.ace"
+            id = "io.github.morowind.ace-gradle-plugin"
+            group = "io.github.morowind"
             displayName = "J-ACE Gradle Plugin"
             description = "J-ACE Platform spring boot gradle plugin"
             tags = listOf("j-ace")

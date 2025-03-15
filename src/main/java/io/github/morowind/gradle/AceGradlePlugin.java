@@ -2,9 +2,16 @@
  * 版权所有 (c) 2025 江苏杰瑞信息科技有限公司
  *
  * 此文件属于JARI.ACE平台项目，修改、分发必须遵守杰瑞信科商业软件许可协议
+ *
  */
 
-package com.csicit.ace.gradle;
+/*
+ * 版权所有 (c) 2025 江苏杰瑞信息科技有限公司
+ *
+ * 此文件属于JARI.ACE平台项目，修改、分发必须遵守杰瑞信科商业软件许可协议
+ */
+
+package io.github.morowind.gradle;
 
 import io.spring.gradle.dependencymanagement.dsl.DependenciesHandler;
 import io.spring.gradle.dependencymanagement.dsl.DependencyManagementExtension;
